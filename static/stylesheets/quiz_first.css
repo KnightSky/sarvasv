@@ -1,0 +1,132 @@
+.qzt{
+	position: relative;
+	background-color: rgb(0, 79, 147);
+	width: 100%;
+	height:55px;
+	color:white;
+	font-size: 40px;
+	padding-left: 25px;
+	font-family:heading;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 5px;
+    margin-bottom: 20px;
+}
+.instructions{
+	position: relative;
+	width:100%;
+	background-color: #cfe3ff;
+	margin-top: 20px;
+	color: #598bb7;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.instructions div{
+	display: inline-block;
+	height: 40px;
+	margin-top: 5px;
+	padding-top: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: color 0.3s,border-bottom 0.3s;
+	font-size: 25px;
+	font-family: sans-serif;
+	max-width: 250px;
+	color: #598bb7;
+	text-decoration: none;
+
+}
+
+.instructions div:hover{
+	
+	cursor: pointer;
+	color: #33516c;
+	border-bottom: 5px groove #33516c;
+	
+}
+
+#description,#ms,#prizes{
+	position: relative;
+	margin-top: 20px;
+	min-height: 500px;
+	background-color: #f2f5fc;
+	display: block;
+	border:  2px solid rgb(0, 79, 147);
+	margin-left: auto;
+	margin-right: auto;
+	width:95%;
+	border-radius: 5px;
+}
+#description>span,#ms>span,#prizes>span
+{
+	display: block;
+	color:#f2f5fc;
+	position: relative;
+	margin-top: 0px;
+	height: 50px;
+	padding-top: 8px;
+	background-color: rgb(0, 79, 147);
+	font-family: heading;
+	font-size: 25px;
+	padding-left: 10px;
+	border-bottom: 3px solid black;
+	border-radius: 5px 5px 0px 0px;
+}
+#enter_quiz{
+	position: relative;
+	padding: 10px;
+	width: 10%;
+	text-align: center;
+	font-size: 25px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	padding: 2px;
+	color: white;
+	top: 10px;
+	border-radius: 3px;
+
+	background-color: rgb(0, 79, 147);
+	
+}
+#enter_quiz1{
+	position: relative;
+	padding: 10px;
+	width: 10%;
+	text-align: center;
+	font-size: 25px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	padding: 2px;
+	color: white;
+	top: 10px;
+	border-radius: 3px;
+
+	background-color: rgb(0, 79, 147);
+
+}
+#enter_quiz:hover{
+	box-shadow: 0 0 5px black;
+}
+
+#fk1,#fk2{
+	height: 70px;
+}
+.jbyy{
+	color: #22ced4;
+	border-bottom: 5px groove #33516c;
+	background-color: white;
+}
+.qtime{
+    padding: 3px;
+    box-shadow: inset 0 0 5px;
+    border-radius: 20px;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

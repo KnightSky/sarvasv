@@ -1,0 +1,55 @@
+<div class="qt">
+				Enter Quiz Title:<br><input type="text" name="quizname" required><br><br>
+				Quiz Start Time:<br><input type="datetime-local" name="starttime" required><br><br>
+				Quiz End Time:<br><input type="datetime-local" name="end" required><br><br>
+				Quiz Duration(min):<br><input type="number" name="duration" required>
+				<br><br>
+				Description:<br><textarea name="desc"></textarea><br><br>
+				Marking Scheme(for users):<br><textarea name="marking"></textarea>
+				<br><br>
+				Prizes:<br><textarea name="prizes"></textarea><br><br>
+				Marking Scheme (for score calculation):<br><br>
+				1.Single Correct:<br>
+			
+				<center>&nbsp;&nbsp;Correct:<input type="number" name="mscc" required><br>
+					Incorrect:<input type="number" name="msci" required><br><br></center>
+				2.Multi Correct:<br><center>&nbsp;&nbsp;
+				Correct:<input type="number" name="mmcc" required><br>
+				Incorrect:<input type="number" name="mmci" required><br><br></center>
+				
+				
+				
+			<input type="submit" name="submit" value="Proceed">
+				</div>
+
+
+
+
+
+...............
+
+
+
+
+
+//ans append codes
+  var qapat="1000000000|0000100000|0000101100|1110100000".split("|");
+   
+    var ui=0;
+    
+for(var i=0;i<nqs;i++)
+    { 
+        for(var j=1;j<=10;j++){
+            if(qapat[i][j-1]=="1"){$(".sc").children().eq(i+1).children().eq(j).addClass("selop");
+        $(".sc").children().eq(i+1).children().eq(j).css("background","white");}}ui++;}
+     for(var i=0;i<nqm;i++)
+    { for(var j=1;j<=10;j++){
+            if(qapat[ui][j-1]=="1"){$(".mc").children().eq(i+1).children().eq(j).addClass("selop");
+        $(".mc").children().eq(i+1).children().eq(j).css("background","white");}}ui++;}
+           
+
+
+
+//ans append codes end
+
+

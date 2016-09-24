@@ -1,0 +1,63 @@
+
+.quizml>span {
+    
+    padding:2px;
+   padding-left:30px;
+    margin-top: 10px;
+    display: block;
+    background: #cecece;
+    transition: background 1s;
+    cursor: pointer;
+    
+}
+.quizml>span:hover {
+    background: #efefef;
+}
+.quizml>span>select{
+ 
+   
+}
+
+.quizmf {
+    position: fixed;
+    bottom: 0px;
+    padding: 5px;
+    border: 2px black solid;
+    z-index: 50;
+    background: rgba(255, 255, 255, 0.6);
+    display: none;
+}
+.quizmf textarea{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.options>input[type="text"] {
+    width:90%;
+}
+.quizmf input[name="qid"] {
+  display:none;
+}
+
+
+
+.cross {
+    cursor: pointer;
+    float: right;
+    padding: 2px;
+    color: white;
+    background: red;
+    font-family: heading;
+}
+.cross:hover{
+    color: black;
+}
+.options>input{
+    display:none;
+}
+.options>input:nth-child(2),.options>input:nth-child(1){
+    display:inline;
+}

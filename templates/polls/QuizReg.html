@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form method="post" action="/polls/register/QuizReg/EditOrCreate/" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ quizregform.as_p }}
+<input type="submit" id="log_sub">
+    </form>
+</body>
+</html>

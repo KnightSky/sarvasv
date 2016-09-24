@@ -1,0 +1,20 @@
+.slider{
+ 
+    height: 320px;
+    width: 100%;
+     overflow: hidden;
+    padding: 10px;
+    
+}
+.slider>img{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+  
+ 
+   
+    
+}
+

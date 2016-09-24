@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script src="C:\Users\Akash\PycharmProjects\untitled\jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+            $("#button").click(function() {
+                var input_string = $("#forminput1").val();
+                var check_string = $("#forminput2").val();
+                $.ajax({
+                        url : "/ajaxexample_json",
+                        type : "POST",
+                        dataType: "json",
+                        data : {
+                            client_response : input_string,
+                            csrfmiddlewaretoken: '{{ csrf_token }}'
+                            },
+                        success : function(json) {
+                            $('#result').append( 'ServerResponse:' + json.server_response);
+                        },
+                        error : function(xhr,errmsg,err) {
+                            alert(xhr.status + ": " + xhr.responseText);
+                        }
+                    });
+                    return false;
+            });
+        });
+</script>
+
+
+<form method="post" name="example form" >
+        {% csrf_token %}
+        <input name="example" id="forminput1" type="text">
+    <input name="example" id="forminput2" type="text">
+    <input id="button" type="button" value="send to server">
+</form>
+
+<div id="result">
+</div>
+
+
+</body>
+
+<!-- Mirrored from www.w3schools.com/jquery/tryit.asp?filename=tryjquery_hide_p by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Sep 2014 06:59:48 GMT -->
+</html>

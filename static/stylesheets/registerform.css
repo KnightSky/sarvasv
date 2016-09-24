@@ -1,0 +1,109 @@
+
+.custom {
+    overflow: hidden;
+    min-height: 400px;
+    padding-bottom: 10px;
+}
+
+.first {
+    margin-top: 50px;
+    opacity: 1;
+    display: block;
+}
+
+.first>div{
+    margin-bottom: 20px;
+}
+.first span:nth-child(odd) {
+    font-family: heading;
+    font-size: 25px;
+}
+.second span:nth-child(odd) {
+    font-family: heading;
+    font-size: 25px;
+}
+.first span:nth-child(even){
+    float:right;
+}
+
+.first input{
+    height: 30px;
+    font-size:20px;
+    width: 200px;
+}
+.first input[type="button"]{
+    float: right;
+    margin-top: 30px;
+}
+.middle{
+    margin-top: 50px;
+    opacity: 0;
+    display: none;
+}
+.middle>div{
+    position: relative;
+    
+    font-family: heading;
+}
+.middle>button{
+    position: relative;
+    background-color: black;
+    color: white;
+    font-family: heading;
+    padding: 3px;
+    top:-150px;
+    float: right;
+}
+.middle>button:hover{
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+}
+.second input{
+    height: 30px;
+    font-size:20px;
+    width: 200px;
+}
+.second input[type="button"]{
+    float: right;
+    margin-top: 30px;
+}
+.second {
+    margin-top: 50px;
+    opacity: 0;
+    display: none;
+}
+.second div{
+    margin-bottom: 20px;
+}
+input[type="number"],[name="college"]
+{
+    border: 2px black solid;
+    margin: 4px;
+    padding: 2px;
+    padding-left: 4px;
+    transition: box-shadow 1s,background 1s;
+    -webkit-transition:box-shadow 1s,background 1s;;
+}
+input[type="number"]:hover,[name="college"]:hover
+{
+    box-shadow: 0 0 4px black;
+}
+input[type="number"]:focus,[name="college"]:focus
+{
+    background: #d9d9d9;
+    
+}
+.second span:nth-child(even){
+    float:right;
+}
+input[type="file"]{
+    width: 100%;
+}
+.socio img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;}
+.socio{
+    margin-top: 100px;
+}

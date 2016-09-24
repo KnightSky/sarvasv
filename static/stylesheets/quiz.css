@@ -1,0 +1,245 @@
+
+.quizh{
+    background: #333;
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    min-height: 100px;
+    transition: background 1s;
+    font-family: heading;
+    margin-top: 20px;
+}
+.quizh:hover{
+    background: #4f4f4f;
+}
+
+.sc>div,.mc>div {
+   margin-left: auto;
+    margin-right: auto;
+    width:75%;
+    border-radius: 5px;
+    transition: width 0.5s;
+     color: white;
+     cursor: pointer;
+     margin-top: 10px;
+
+     display: block;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding: 10px;
+
+}
+.sc>div:hover,.mc>div:hover{
+    width:80%;
+}
+.sc, .mc{
+    padding-top: 30px;
+}
+
+.sc>div>div,.mc>div>div{
+    background: grey;
+     box-shadow: 0 0 10px black;
+    padding:5px;
+    width:50%;
+    transition: background 0.5s , color 0.5s;
+   
+}
+.sc>div>div:nth-child(1)>span,.mc>div>div:nth-child(1)>span{
+  font-family: heading;
+}
+.sc>div>div:nth-child(4n),.mc>div>div:nth-child(4n){
+    background: #adadad;
+     float:left;
+}
+.sc>div>div:nth-child(4n+1),.mc>div>div:nth-child(4n+1){
+    background: #8d8d8d;
+    float: right;
+    text-align: right;
+}
+.sc>div>div:nth-child(4n+2),.mc>div>div:nth-child(4n+2){
+    background: #727272;
+    float:left;
+}
+.sc>div>div:nth-child(4n+3),.mc>div>div:nth-child(4n+3){
+    background: #555555;
+    float: right;
+      text-align: right;
+}
+.sc>div>div:hover,.mc>div>div:hover{
+    color:black;
+   
+}
+.sc>div>div:nth-child(1):hover,.mc>div>div:nth-child(1):hover{
+    color:white;
+    background: #5579bf;
+}
+.sc>div>div:nth-child(1),.mc>div>div:nth-child(1){
+    background: #6699ff;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+      text-align: left;
+    
+
+}
+
+@media only screen and (max-width: 600px) {
+    .sc>div>div,.mc>div>div{
+        width: 100%;
+        float: left;
+    }
+
+    
+}
+.score_board {
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    padding: 10px;
+    
+    border-top:2px #6699ff solid;
+    background: #4d4d4d;
+    color: white;
+    z-index: 100;
+    box-shadow: 0 -0 2px black;
+    transition: background 1s;
+    
+}.score_board:hover{
+    background: #333;
+}
+
+.score_board_progress {
+    height: 5px;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    background: #000000;
+    width: 100%;
+}
+.score_board_progress>div {
+    width:0px;
+    height: 5px;
+    background:#6699ff;
+}
+.submitbutton{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.selop{
+
+    color:black;
+    font-weight: bold;
+
+}
+.selop:before{
+    content:'\2713';
+    margin-right: 5px;
+      margin-left: 5px;
+    color:green;
+}
+/*input wali styling*/
+
+.it{
+     padding-top: 30px;
+}
+
+.it>div:hover,.it>div:hover{
+    width:80%;
+}
+
+.it>div {
+
+   margin-left: auto;
+    margin-right: auto;
+    width:75%;
+    border-radius: 5px;
+    transition: width 0.5s;
+     color: white;
+     cursor: pointer;
+     margin-top: 10px;
+display: block;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding: 10px;
+
+
+}
+.it>div:nth-child(2){
+    margin-top: 60px;
+}
+.it>div>div:nth-child(1){
+    background: #6699ff;
+
+        box-shadow: 0 0 10px black;
+    padding:5px;
+
+    transition: background 0.5s , color 0.5s;
+}
+.it>div>div:nth-child(1)>span{
+    font-family: heading;}
+
+.it>div>div:nth-child(2){
+    background: #d0d0d0;
+
+        box-shadow: 0 0 10px black;
+    padding:5px;
+
+    transition: background 0.5s , color 0.5s;
+}
+
+.it>div>div:nth-child(1):hover{
+    color:white;
+    background: #5579bf;
+}
+.it>div>div:nth-child(2):hover{
+
+    background:#9d9d9d;
+
+}
+.it>div>div>input{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.msinh{
+    float:right;
+    margin-right: 5px;
+    font-size:20px;
+    font-family: heading;
+}
+.msinh>span{
+     font-family: heading;
+}
+.msinh>span:nth-child(1):before{
+    content:'+';
+    color: lawngreen;
+     font-family: heading;
+}
+.msinh>span:nth-child(2):before{
+    content:'-';
+    color: red;
+     font-family: heading;
+}
+.quizh>span{
+    color:lightgray;
+    font-size: 20px;
+}
+.quizh>span>a{
+    color:lightgray;
+    font-size: 20px;
+    text-decoration: none;
+}
+.qimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 90%;
+}
+
+

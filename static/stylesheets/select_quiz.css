@@ -1,0 +1,138 @@
+.vadda{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 55%;
+}
+.edit
+{
+	position: relative;
+	display: inline-block;
+	background-color: rgb(155, 189, 255);
+	width: 40%;
+	border-radius: 10px 10px 10px 10px;
+	height:800px;
+	box-shadow: inset 0px 0px 10px #553f3f;
+	min-width: 200px;
+	z-index: 0;
+	
+}
+.create
+{
+	position: relative;
+	display: inline-block;
+	background-color: rgb(200, 209, 227);
+	width: 40%;
+	float: right;
+	border-radius: 10px 10px 10px 10px;
+	height: 800px;
+	box-shadow: inset 0px 0px 10px #553f3f;
+	min-width: 200px;
+	z-index: 0;
+}
+.chead
+{
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #8483f0;
+	border-radius: 5px;
+	color: aliceblue;
+	box-shadow: 2px 2px black;
+	min-width:100px;
+	width: 50%;
+	transition:background 1s;
+	margin-top: 50px;
+	padding: 8px;
+}
+.ehead {
+	min-width: 100px;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	background-color: #8483f0;
+	padding: 8px;
+	border-radius: 5px;
+	color: aliceblue;
+	box-shadow: 2px 2px 2px black;
+	transition:background 1s;
+}
+.chead:hover{background: #383ba3;}
+.ehead:hover{background: #383ba3;}
+
+.fake1
+{
+	position: relative;
+	margin-top: 20%;
+	max-height:70% ;
+	width:100%;
+	overflow: auto;
+}
+.fake2
+{
+	position: relative;
+	margin-top: 20%;
+	max-height:70% ;
+	width:100%;
+	overflow: auto;
+
+}
+.list{
+	position: relative;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+.list span
+{
+	box-shadow: 0px 0px 5px black;
+	background-color: rgb(40, 96, 206);
+    padding-top:5px;
+    text-align: center;
+	padding-bottom: 5px;
+    width:80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: aliceblue;
+	border-radius: 8px;
+	cursor:pointer;
+}
+.fake1::-webkit-scrollbar {
+    width: 10px;
+}
+.fake1::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.fake1::-webkit-scrollbar-thumb {
+  background-color: #001e5a;
+  outline: 1px solid slategrey;
+}
+.fake2::-webkit-scrollbar {
+    width: 10px;
+}
+.fake2::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.fake2::-webkit-scrollbar-thumb {
+  background-color: #001e5a;
+  outline: 1px solid slategrey;
+}
+.list span:hover{
+	box-shadow: 0px 0px 10px black;
+	background-color: #9194ed;
+	transition: background 0.3s;
+	
+}
+.list a
+{
+	color: aliceblue;
+	text-decoration: none;
+}
+
+
+
+
+

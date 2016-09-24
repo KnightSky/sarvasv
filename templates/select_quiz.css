@@ -1,0 +1,97 @@
+.vadda
+{
+	margin-left: 10%;
+	width: 66%;
+	
+}
+.edit
+{
+	margin-top: -100px;
+	height:50%;
+	position: absolute;
+	width: 33%;
+	background-color: #9bbdff;
+	border-radius: 10px 0px 0px 10px
+}
+.create
+{
+	margin-top: -100px;
+	background-color: #c8d1e3;
+	height: 50%;
+	position: absolute;
+	margin-left: 33%;
+	width: 33%;
+	border-radius: 0px 10px 10px 0px;
+}
+.chead
+{
+	margin-top: 80px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #8483f0;
+	padding: 8px;
+	border-radius: 5px;
+	color: aliceblue;
+	box-shadow: 2px 2px black;
+	cursor: pointer;
+	min-width:120px;
+	width: 50%;
+	transition:background 1s;
+
+}
+.ehead {
+	margin-top: 80px;
+	min-width: 100px;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #8483f0;
+	padding: 8px;
+	border-radius: 5px;
+	color: aliceblue;
+	box-shadow: 2px 2px black;
+	cursor: pointer;
+	transition:background 1s;
+}
+.chead:hover{background: #383ba3;}
+.ehead:hover{background: #383ba3;}
+
+.fake1
+{
+	position: relative;
+	opacity:0;
+}
+.fake2
+{
+	position: relative;
+	opacity: 0;
+}
+.list{
+	border-radius: 10px;
+	margin-top: 30px;
+}
+
+.list>span
+{
+	box-shadow: 0px 0px 5px black;
+	background-color: #2c6fef;
+    padding-top:5px;
+    text-align: left;
+	padding-bottom: 5px;
+    width:51%;
+	margin-left: 10px;
+	float: left;
+	color: aliceblue;
+}
+.list>span>a
+{
+	color: aliceblue;
+	cursor: pointer;
+	text-decoration: none;
+}
+.list>span:before{
+	content: "→";}
+
+

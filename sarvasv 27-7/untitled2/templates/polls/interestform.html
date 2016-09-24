@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Interest fill-up Page</title>
+</head>
+
+<body>
+
+
+<form method="post" action="/polls/register/{{ eid }}/{{ otp }}/interests/dashboard/" enctype="multipart/form-data">
+    {% csrf_token %}
+   <!-- College &nbsp &nbsp &nbsp  <input type="text" value="college"  name="college" required><br/>
+    E-mail ID  &nbsp <input type="email" value="emailid"  name="emailid" required><br/>
+    Password &nbsp &nbsp  <input type="password" value="password"  name="password" required><br/>
+    Confirm Password &nbsp &nbsp  <input type="password" value="conpassword"  name="conpassword" required><br/> -->
+    {{ interest_form.as_p }}
+    <input type="submit" value="Add_my_Interest" name="Add_my_interest" ><br/>
+
+
+
+ </form>
+
+</body>
+</html>

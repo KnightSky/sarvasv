@@ -1,0 +1,33 @@
+
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+<form method="post" action="">
+    {% csrf_token %}
+	Name &nbsp &nbsp &nbsp  <input type="text" value="user" name="name" required>
+    <br>
+    Nickname &nbsp &nbsp  <input type="text" value="u" name="nickname" required>
+    <br>
+    D.O.B. &nbsp &nbsp &nbsp  <input type="text" value="dob" name="dob" required>
+    <br>
+    College &nbsp &nbsp &nbsp  <input type="text" value="clg"  name="college" required>
+    <br>
+    Official email id   &nbsp <input type="email" value="eid"  name="eid" required>
+    <br>
+    Password &nbsp &nbsp  <input type="password" value="pass"  name="password" required>
+    <br>
+    Confirm Password  &nbsp&nbsp  <input type="password" value="cpass"  name="cpassword" required>
+    <br>
+<input type="submit" value="register
+" name="register">
+     <script> alert('{{ message }}'); </script>
+
+</form>
+
+</body>
+Output1 = {{output}}
+</html>
